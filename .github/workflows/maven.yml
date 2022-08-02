@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/setup-java@v3
       with:
-          distribution: '<distribution>'
+          distribution: 'temurin'
           java-version: 11
     - run: echo "JAVA_11=$JAVA_HOME" >> $GITHUB_ENV
     - uses: actions/checkout@v3
